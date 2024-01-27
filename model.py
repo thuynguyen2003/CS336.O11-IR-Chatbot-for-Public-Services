@@ -248,8 +248,8 @@ def create_template():
 
 source_corpus = pd.read_csv("./source/Source_corpus.csv")
 chat_prompt = create_template()
-chat = ChatOpenAI(openai_api_key="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")
-chat_plus = ChatOpenAI(openai_api_key="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", model='gpt-3.5-turbo-1106')
+chat = ChatOpenAI(openai_api_key="sk-")
+chat_plus = ChatOpenAI(openai_api_key="sk-", model='gpt-3.5-turbo-1106')
 def Langchain_RAG(query):
   answer = {'query': query}
   retri_result = retrieval(query, question_corpus, seg_question_corpus, models)
