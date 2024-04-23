@@ -31,6 +31,7 @@ Trong mô hình RAG sẽ có 3 thành phần:
 
 **Hình 2. Cấu trúc hệ thống của ứng dụng**
 ![img](./src/system_architecture.png)
+
 Hệ thống Chatbot của chúng tôi được thiết kế như Hình 2, với chi tiết quy trình như sau:
 
 - Giai đoạn 1 - Tiền xử lý: Trước khi đưa câu hỏi người dùng vào hệ thống để tìm trong dữ liệu cũng như tạo câu phản hồi thì chúng tôi cho câu hỏi qua các bước tiền xử lý như sau:
